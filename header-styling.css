@@ -1,0 +1,39 @@
+
+header {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.title-section-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight:bolder;
+}
+
+.social-icons-container {
+	margin-top: .5rem;
+	justify-content: center;
+}
+
+.social-links-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.social-links-left, .social-icons-container {
+	display: flex;
+	/* width: 50%; */
+	/*padding: TB RL  */
+}
+
+
+.email {
+	font-size: 1.2rem;
+	font-weight: lighter;
+	padding-left: 0rem;
+}

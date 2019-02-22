@@ -1,0 +1,29 @@
+.nav-tile-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 0;
+}
+
+.content-navigation-tile {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.content-navigation-tile-header {
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-bottom: .8rem;
+}
+
+.content-navigation-links-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-navigation-links-list li {
+	padding: .42rem 0;
+}
+.content-navigation-link {
+	font-size: 1.2rem;
+}
