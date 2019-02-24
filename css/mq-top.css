@@ -1,6 +1,10 @@
 /* .title-contact-info-container, .social-media-links-container {
   border: 2px solid red;
 } */
+body {
+  width: 75%;
+}
+
 .c-title-contact-info {
   width: 75%;
 }
