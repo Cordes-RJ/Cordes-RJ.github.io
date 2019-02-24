@@ -1,0 +1,27 @@
+/* .title-contact-info-container, .social-media-links-container {
+  border: 2px solid red;
+} */
+.c-title-contact-info {
+  width: 75%;
+}
+
+.c-title-contact-info * {
+  justify-content: flex-start;
+}
+
+.c-social-media-links {
+  justify-content: flex-end;
+  width: 25%;
+  margin: 0;
+}
+
+.social-media-link {
+  border-radius: 0;
+  width: 2rem;
+  height: 2rem;
+  transition: border-radius 300ms;
+}
+
+.social-media-link:hover {
+  border-radius: 50%;
+}

@@ -3,34 +3,43 @@
   color: black;
 }
 
+body, header, main, .main-title, .contact-information, .c-social-media-links, .c-title-contact-info {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
 body {
-  display: flex;
-  flex-wrap: wrap;
-  /* width: 100%; */
+  width: 80%;
+  margin: 1rem auto;
 }
 
-header, main {
-  border: 2px solid red;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+.main-title a {
+  font-size: 4.5rem;
+  color: black;
+  font-weight: bold;
 }
 
-.main-title, .contact-information, .social-media-icon-links {
-  border: 2px solid blue;
-  width: 100%;
+.main-title a:hover {
+  color: black;
+  text-shadow: none;
 }
 
-.social-media-icon-links {
-  display: flex;
+.main-title, .contact-information {
+  justify-content: center;
+}
+
+.c-social-media-links {
   justify-content: space-around;
+  margin: 1rem 0;
 }
 
-.social-link {
+.social-media-link {
   width: 4rem;
   height: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 50%;
 }
 
 #twitter {
