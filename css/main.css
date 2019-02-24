@@ -23,25 +23,26 @@ header, main {
 
 .social-media-icon-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .social-link {
-  border: 2px solid green;
-  width: 33.33%;
-  height: 2rem;
-}
-
-#github {
-  background-image: url("./resc/images/github-icon.png");
+  width: 4rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #twitter {
-  background-image: url(resc/images/twitter-icon.png);
+  background-image: url("../resc/images/twitter-icon.png");
 }
 
 #youtube {
-  background-image: url(resc/images/youtube-icon.png);
+  background-image: url("../resc/images/youtube-icon.png");
+}
+
+#github {
+  background-image: url("../resc/images/github-icon.png");
 }
 
 /* * {
