@@ -1,22 +1,22 @@
 {
 "MetaDataPackets":[{
 "ID":0,
-"Type":"Post",
+"Type":"Article",
 "Title":"ExampleContent",
 "Date":"Friday, Feb 22, 2019",
 "Time":"12:00:00 AM",
 "Summary":"On the 22nd of February I added an example Content Article as a means of testing top level summaries.",
-"Img":"test.jpeg",
+"Img":"test.png",
 "ContentBody":"ExampleContent.JSON",
 "KeyWords": ["Programming","Research"]
 },{
 "ID":1,
-"Type":"Post",
+"Type":"Article",
 "Title":"ExampleContent2",
 "Date":"Saturday, Feb 23, 2019",
 "Time":"1:30:00 AM",
 "Summary":"On the 23rd of February I added another example Content Article as a means of testing top level summaries.",
-"Img":"test.jpeg",
+"Img":"test.png",
 "ContentBody":"ExampleContent2.txt",
 "KeyWords": ["Research","Game Theory And Economics","Philosophy"]
 }]
