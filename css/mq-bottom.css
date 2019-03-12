@@ -1,3 +1,10 @@
+/* Increase title font */
 .main-title a {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+/* make social links width static at breakpoint - stop growing */
+.c-social-media-links {
+  margin: 1rem auto;
+  width: 450px;
 }

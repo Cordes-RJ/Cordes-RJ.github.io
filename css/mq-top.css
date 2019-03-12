@@ -1,8 +1,5 @@
-body {
-  width: 75%;
-}
-
 .c-title-contact-info {
+  border: 2px solid blue;
   width: 75%;
 }
 
@@ -12,8 +9,8 @@ body {
 
 .c-social-media-links {
   justify-content: flex-end;
+  margin: 0 0;
   width: 25%;
-  margin: 0;
 }
 
 .social-media-link {
