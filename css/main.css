@@ -1,0 +1,138 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+body {
+  width: 62%;
+  margin: 32px auto;
+  /* border-color: yellow; */
+  /* keep centered with margin of 32px left and right*/
+}
+
+header {
+  /* created two containers: top and bottom
+    using column to vertically stack with no wrap */
+  display: flex;
+  flex-flow: row wrap;
+  border-color: red;
+}
+
+.c-header-top {
+  /* header top section: contains title and social navigation container */
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* justify-content: space-between; */
+  border-color: lime;
+}
+
+.c-header-bottom {
+  /* header bottom section: contains email address */
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  border-color: blue;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.email {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.c-social-media-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 8px 0;
+}
+
+.social-media-link {
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+#twitter {
+  background-image: url("../resc/images/twitter-icon.png");
+}
+
+#youtube {
+  background-image: url("../resc/images/youtube-icon.png");
+}
+
+#github {
+  background-image: url("../resc/images/github-icon.png");
+}
+
+/* ----------------------------------- social icons -------------------------------------------------------
+
+----------------------------------- social icons ------------------------------------------------------- */
+main {
+  display: flex;
+  flex-direction: column;
+  border-color: red;
+  margin: 32px 0;
+}
+
+.main-description {
+  font-size: 1.5rem;
+}
+
+.more-about {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  margin-top: 16px;
+}
+
+/* ----------------------------------- navigation tiles ------------------------------------------------------- */
+.c-main-content-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.content-navigation-tile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content-navigation-tile-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: .8rem;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-list li {
+  padding: .42rem 0;
+}
+
+.content-navigation-link {
+  font-size: 1.2rem;
+}
+
+/* ----------------------------------- link styling ------------------------------------------------------- */
+a {
+  color: #81899C;
+  font-weight: lighter;
+  transition: color 1000ms;
+  transition: text-shadow 1000ms;
+}

@@ -1,0 +1,36 @@
+a:hover {
+  color: blue;
+  text-shadow: 1px 1px 5px rgba(0, 0, 255, .5);
+}
+
+.c-header-top {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.c-header-bottom {
+  justify-content: flex-start;
+  padding-left: 3px;
+}
+
+.main-title {
+  width: 75%;
+  font-size: 3rem;
+}
+
+.c-social-media-links {
+  width: 25%;
+  justify-content: flex-end;
+}
+
+.social-media-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+  transition: border-radius 300ms;
+}
+
+.social-media-link:hover {
+  border-radius: 50%;
+}
