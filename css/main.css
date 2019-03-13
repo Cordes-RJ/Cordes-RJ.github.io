@@ -40,6 +40,7 @@ header {
 .main-title {
   font-size: 2.5rem;
   font-weight: bolder;
+  color: black;
 }
 
 .email {
@@ -76,9 +77,6 @@ header {
   background-image: url("../resc/images/github-icon.png");
 }
 
-/* ----------------------------------- social icons -------------------------------------------------------
-
------------------------------------ social icons ------------------------------------------------------- */
 main {
   display: flex;
   flex-direction: column;
@@ -130,7 +128,7 @@ main {
 }
 
 /* ----------------------------------- link styling ------------------------------------------------------- */
-a {
+.email, .more-about a, .content-navigation-link {
   color: #81899C;
   font-weight: lighter;
   transition: color 1000ms;
