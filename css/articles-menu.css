@@ -1,0 +1,18 @@
+.articles-menu {
+  padding: 1em 0;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.articles-menu li {
+  margin: 1em 0;
+  padding: 1em;
+  border: 2px solid rgba(240, 240, 240, .5);
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #ccc;
+  max-width: 210px;
+}
+
+.article-title {
+  width: 100%;
+}

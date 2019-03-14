@@ -1,4 +1,4 @@
-.email:hover, .more-about a:hover, .content-navigation-link:hover {
+.email:hover, .more-about a:hover, .content-navigation-link:hover, .article-title-link:hover, .article-paragraph-aside:hover {
   color: blue;
   text-shadow: 1px 1px 5px rgba(0, 0, 255, .5);
 }
