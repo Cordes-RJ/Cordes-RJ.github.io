@@ -1,4 +1,4 @@
-.email:hover, .more-about a:hover, .content-navigation-link:hover, .article-title-link:hover, .article-paragraph-aside>a:hover {
+.email:hover, .more-about a:hover, .content-navigation-link:hover, .article-title-link:hover, .article-paragraph-aside>a:hover, .p-link:hover, .refs:hover {
   color: blue;
   text-shadow: 1px 1px 5px rgba(0, 0, 255, .5);
 }
@@ -33,4 +33,12 @@
 
 .social-media-link:hover {
   border-radius: 50%;
+}
+
+blockquote {
+  width: 75%;
+}
+
+.math-fact-ul li {
+  margin: .5rem auto;
 }

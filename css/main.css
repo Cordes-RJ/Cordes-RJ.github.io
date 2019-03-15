@@ -168,10 +168,68 @@ aside {
   justify-content: center;
 }
 
+blockquote {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #aaa;
+  margin: 1em auto;
+}
+
+.math-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 1em auto;
+  max-width: 800px;
+}
+
+.math-fact-ul {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  list-style-type: disc;
+  font-weight: bold;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.math-fact-ul li {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: .5rem 0;
+}
+
+#seven {
+  width: 250px;
+  height: 100px;
+}
+
 /* ----------------------------------- link styling ------------------------------------------------------- */
-.email, .more-about a, .content-navigation-link, .article-title-link, .article-paragraph-aside {
+.email, .more-about a, .content-navigation-link, .article-title-link, .article-paragraph-aside, .p-link, .refs {
   color: #81899C;
   font-weight: lighter;
   transition: color 1000ms;
   transition: text-shadow 1000ms;
+}
+
+.refs-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.refs {
+  display: block;
+  width: 100%;
+  margin: .5em 0;
+}
+
+.p-link {
+  font-style: italic;
 }
