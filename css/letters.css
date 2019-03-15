@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.letters-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.letter {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.letters-container a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.quote-list {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.quote-list li {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  padding: .5em 2em;
+}
