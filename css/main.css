@@ -214,7 +214,8 @@ blockquote {
 /* ----------------------------------- link styling ------------------------------------------------------- */
 .email, .more-about a, .content-navigation-link, .article-title-link, .article-paragraph-aside, .p-link, .refs, .rec-link {
   color: #81899C;
-  font-weight: lighter;
+  font-weight: bold;
+  font-size: 1.2rem;
   transition: color 1000ms;
   transition: text-shadow 1000ms;
 }

@@ -27,6 +27,25 @@
   margin-top: .5em;
 }
 
+.bookType {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: .5em;
+}
+
+.bookAdded {
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: .5em;
+}
+
+.docID {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: gray;
+  margin-top: .5em;
+}
+
 .book-list {
   display: flex;
   flex-flow: row wrap;
